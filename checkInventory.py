@@ -8,7 +8,7 @@ port = 465  # For SSL
 smtp_server = "smtp.gmail.com"
 sender_email = ""  # Enter your address
 receiver_email = ""  # Enter receiver address
-password = os.environ.get('GPASS')
+password = os.environ.get('GPASS') # Sending email password
 
 
 context = ssl.create_default_context()
